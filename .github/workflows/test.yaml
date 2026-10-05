@@ -16,3 +16,4 @@ jobs:
             project: Anshul_SVT
             branch: master
             assetId: 094c8e19c872ab595225d1916eb56c7152a6aea8e5c05a9c10cbd2c171783350
+            resultProperties: id=123
