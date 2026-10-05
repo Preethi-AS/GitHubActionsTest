@@ -10,7 +10,7 @@ jobs:
          - name: Execute Test
            uses: HCL-TECH-SOFTWARE/onetest-server-action@THUB00015222-server
            with:
-            serverUrl: https://master-hcl.tp-k8s.nonprod.hclpnp.com/test
+            serverUrl: https://master-hcl.tp-k8s.nonprod.hclpnp.com/test#insecure-skip-tls-verify
             offlineToken: eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlNzM5ZWRiOC1hZWMzLTQ0Y2QtYTBjZS03MGE0MTQwYjZlN2QifQ.eyJpYXQiOjE3OTA1OTUyMjIsImp0aSI6ImM3Y2VmMmI5LTQyYzItZTFjZC0wNzhkLTUxMGZjZjY4NDMwMCIsImlzcyI6Imh0dHBzOi8vbWFzdGVyLWhjbC50cC1rOHMubm9ucHJvZC5oY2xwbnAuY29tL2F1dGgvcmVhbG1zL3BsYXRmb3JtIiwiYXVkIjoiaHR0cHM6Ly9tYXN0ZXItaGNsLnRwLWs4cy5ub25wcm9kLmhjbHBucC5jb20vYXV0aC9yZWFsbXMvcGxhdGZvcm0iLCJzdWIiOiI1ZDMyYTk5OS0wMzBmLTRkOTEtYjU2NC00MzM0N2JlZDlkNmUiLCJ0eXAiOiJPZmZsaW5lIiwiYXpwIjoidGVzdHNlcnZlciIsInNpZCI6ImRyZ3dVNnFBQXlfNG5XYUx5NnZZRElqUyIsInNjb3BlIjoid2ViLW9yaWdpbnMgYmFzaWMgcm9sZXMgb2ZmbGluZV9hY2Nlc3Mgc2VydmljZV9hY2NvdW50IGVtYWlsIGFjciBwcm9maWxlIiwiYXVkX3giOiJhY2NvdW50IiwicHJvdiI6ImRlZmF1bHQifQ.MJBQX1UsmTcHTHjLUrY_exlO61P8zXTs91-BzX4bM1aFLI9eArc406e9LQ_gxnE4N_AZCiCsJD_bfDANUbkbQg
             teamspace: Initial Team Space
             project: Project3
