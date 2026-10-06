@@ -16,4 +16,4 @@ jobs:
             project: Anshul_SVT
             branch: AnsFT
             assetId: 2ff1840b54f05ddcc279c03ffaabb8199d50613c950191f0cfa700baf57319cf
-            resultProperties: id=preethi;url=abc.com;buildid=123
+            resultProperties: id
